@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Linux
+*~
+*.swp
+
+# Secrets
+*.pem
+*.key
+.env
+
+# VSCode
+.vscode/
