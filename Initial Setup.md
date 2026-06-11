@@ -96,6 +96,7 @@ paste-password-here
 - [[Bandit Level Next]]
     
 
+EOF
 ````
 
 ---
