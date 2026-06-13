@@ -1,23 +1,28 @@
 # OverTheWire Notes
 
-My learning notes while completing OverTheWire wargames.
+A structured collection of notes, solutions, and lessons learned while progressing through OverTheWire wargames.
 
-## Progress
+## Wargames
 
-### Bandit
+- [ ] Bandit
+- [ ] Natas
+- [ ] Leviathan
+- [ ] Krypton
+- [ ] Narnia
+- [ ] Behemoth
+- [ ] Utumno
+- [ ] Maze
+- [ ] Manpage
+- [ ] Drifter
 
-- [x] Level 0
-- [x] Level 1
-- [x] Level 2
-- [ ] Level 3
+## Resources
 
-## Structure
+- Linux Commands
+- SSH
+- File Permissions
+- Bash Redirection
+- Grep & Find
 
-- Solutions
-- Explanations
-- Linux concepts
-- Command references
+## Purpose
 
-## Disclaimer
-
-These notes are for educational purposes.
+This repository serves as both a learning journal and a reference for Linux and cybersecurity concepts encountered throughout OverTheWire.
