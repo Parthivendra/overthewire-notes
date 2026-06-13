@@ -28,7 +28,7 @@ Save this as the template for every Bandit level.
 ````markdown
 # Bandit Level XX → YY
 
-**Date:** YYYY-MM-DD
+**Date:** DD-MM-YYYY
 
 **Status:** ✅ Solved / ⏳ Stuck
 

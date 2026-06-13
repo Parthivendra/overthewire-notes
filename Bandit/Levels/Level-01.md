@@ -1,6 +1,6 @@
-# Bandit Level XX → YY
+# Bandit Level 00 → 01
 
-**Date:** YYYY-MM-DD
+**Date:** 13-06-2026
 
 **Status:** ✅ Solved / ⏳ Stuck
 
@@ -9,14 +9,14 @@
 ## Connection
 
 ```bash
-ssh banditXX@bandit.labs.overthewire.org -p 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 ---
 
 ## Level Goal
 
-Paste the official level description here.
+The password for the next level is stored in a file called **readme** located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
 ---
 
@@ -25,8 +25,10 @@ Paste the official level description here.
 ```bash
 # Working commands used to solve the level
 
-ls -la
-cat filename
+# Navigation and basic file inspection
+ls , cd , cat , file , du , find
+
+
 ```
 
 ---
@@ -34,18 +36,26 @@ cat filename
 ## Key Learnings
 
 - Main concept learned:
+    `ls` - list items in dir
+    `cd` - change dir
+    `cat` - display file content in terminal
+    `file` - identify what kind of file something is
+    `du` - show disk usage
+    `find` - search for dir based on name, size, owner, or permission.
     
 - Important flags / tricks:
+    `data.txt` -> one may think this is a text file, `file data.txt` may output `gzip compressed data`. `find` helps smartly despite misleading filenames.
+    
+    `du -h file.txt` gives file size and is useful to analyse file contents/usefulness without opening and reading file.
     
 - Common mistake to avoid:
-    
 
 ---
 
 ## Password for Next Level
 
 ```text
-paste-password-here
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
 
 ---
