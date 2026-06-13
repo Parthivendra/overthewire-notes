@@ -2,7 +2,7 @@
 
 **Date:** 13-06-2026
 
-**Status:** ✅ Solved / ⏳ Stuck
+**Status:** ✅ Solved
 
 ---
 

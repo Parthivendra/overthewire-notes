@@ -1,6 +1,6 @@
 # Bandit Level XX → YY
 
-**Date:** DD-MM-YYYY
+**Date:** 13-06-2026
 
 **Status:** ✅ Solved / ⏳ Stuck
 
