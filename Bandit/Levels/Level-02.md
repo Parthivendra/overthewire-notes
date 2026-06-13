@@ -1,22 +1,22 @@
-# Bandit Level XX → YY
+# Bandit Level 02 → 03
 
 **Date:** 13-06-2026
 
-**Status:** ✅ Solved / ⏳ Stuck
+**Status:** ✅ Solved
 
 ---
 
 ## Connection
 
 ```bash
-ssh banditXX@bandit.labs.overthewire.org -p 2220
+ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
 
 ---
 
 ## Level Goal
 
-Paste the official level description here.
+The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory
 
 ---
 
@@ -27,6 +27,8 @@ Paste the official level description here.
 
 ls -la
 cat filename
+
+cat ./--spaces\ in\ this\ filename-- 
 ```
 
 ---
@@ -34,9 +36,9 @@ cat filename
 ## Key Learnings
 
 - Main concept learned:
-    
+    See [[PS-Inspire/OverTheWire/Bandit/Levels/Level-01|Level-0]]
 - Important flags / tricks:
-    
+    For spaces ` ` in filenames,  or other special characters, resolve special character using `\`.
 - Common mistake to avoid:
     
 
@@ -45,7 +47,7 @@ cat filename
 ## Password for Next Level
 
 ```text
-paste-password-here
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
 
 ---

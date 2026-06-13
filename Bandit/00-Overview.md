@@ -17,10 +17,10 @@ The objective is to obtain the password for the next level by analyzing the curr
 ### Levels
 
 * [[Levels/Level-00]]
-* [[Levels/Level-01]]
-* [[Levels/Level-02]]
-* [[Levels/Level-03]]
-* [[Levels/Level-04]]
+* [[Level-00-> 01]]
+* [[PS-Inspire/OverTheWire/Bandit/Levels/Level-01]]
+* [[PS-Inspire/OverTheWire/Bandit/Levels/Level-02]]
+* [[PS-Inspire/OverTheWire/Bandit/Levels/Level-03]]
 * [[Levels/Level-05]]
 * [[Levels/Level-06]]
 * [[Levels/Level-07]]
