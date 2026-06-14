@@ -24,6 +24,7 @@ The password for the next level is stored in the only human-readable file in the
 
 ```bash
 # Working commands used to solve the level
+ls , cd , cat , file , du , find
 ls, cd, cat, file
 
 file -h file-name # -h for human redable detials
