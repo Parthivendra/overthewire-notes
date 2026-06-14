@@ -43,16 +43,16 @@ create_level() {
     cat > "$FILE" << EOF
 # $GAME Level $LEVEL_PADDED → $NEXT_PADDED
 
-**Date:** $(date +%F)
+**Date:** DD-MM-YYYY
 
-**Status:** ⏳ Stuck
+**Status:** ⏳ Stuck / ✅ Solved
 
 ---
 
 ## Connection
 
 \`\`\`bash
-ssh ${GAME,,}$LEVEL_NUM@${GAME,,}.labs.overthewire.org
+ssh ${GAME,,}$LEVEL_NUM@${GAME,,}.labs.overthewire.org -p 2220
 \`\`\`
 
 ---
@@ -67,6 +67,7 @@ Paste the official level description here.
 
 \`\`\`bash
 # Working commands used to solve the level
+
 \`\`\`
 
 ---
@@ -74,15 +75,18 @@ Paste the official level description here.
 ## Key Learnings
 
 - Main concept learned:
+	
 - Important flags / tricks:
+	
 - Common mistake to avoid:
+	
 
 ---
 
 ## Password for Next Level
 
 \`\`\`text
-paste-password-here
+PastePasswordHere
 \`\`\`
 
 ---
@@ -90,7 +94,9 @@ paste-password-here
 ## Notes / Tips
 
 - Extra observations
+	
 - Related commands to explore later
+	
 
 ---
 
