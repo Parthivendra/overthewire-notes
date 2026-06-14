@@ -37,7 +37,7 @@ cat ./-
 ## Key Learnings
 
 - Main concept learned:
-    Same as [[Level-00-> 01|Level-]]
+    Same as [[PS-Inspire/OverTheWire/Bandit/Levels/Level-00|Level-]]
 - Important flags / tricks:
     For queer file names `-`, resolve them with reference to the root folder `./-`.
 - Common mistake to avoid:
