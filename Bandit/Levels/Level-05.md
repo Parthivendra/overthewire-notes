@@ -1,8 +1,8 @@
 # Bandit Level 05 → 06
 
-**Date:** 14-06-2026
+**Date:** 17-06-2026
 
-**Status:** ⏳ Stuck ✅ Solved
+**Status:** ✅ Solved
 
 ---
 
@@ -30,7 +30,7 @@ The password for the next level is stored in a file somewhere under the **inher
 # Working commands used to solve the level
 ls , cd , cat , file , du , find
 
-# LEARN FIND COMMAND, RETRY TOMORROW
+# LEARNED FIND COMMAND FROM GPT, GOT PASSWORD, ANNOTATE TOMORROT
 ```
 
 ---
@@ -46,7 +46,7 @@ ls , cd , cat , file , du , find
 ## Password for Next Level
 
 ```text
-paste-password-here
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```
 
 ---

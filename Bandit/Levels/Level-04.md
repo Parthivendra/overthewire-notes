@@ -1,6 +1,6 @@
 # Bandit Level 04 → 05
 
-**Date:** 2026-06-14
+**Date:** 16-06-2026
 
 **Status:** ⏳ Stuck ✅ Solved
 
