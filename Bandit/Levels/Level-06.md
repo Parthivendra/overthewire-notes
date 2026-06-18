@@ -1,22 +1,26 @@
-# Bandit Level XX → YY
+# Bandit Level 06 → 07
 
-**Date:** DD-MM-YYYY
+**Date:** 18-06-2026
 
-**Status:** ✅ Solved / ⏳ Stuck
+**Status:** ✅ Solved
 
 ---
 
 ## Connection
 
 ```bash
-ssh banditXX@bandit.labs.overthewire.org -p 2220
+ssh bandit6@bandit.labs.overthewire.org -p 2220
 ```
 
 ---
 
 ## Level Goal
 
-Paste the official level description here.
+The password for the next level is stored **somewhere on the server** and has all of the following properties:
+
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
 
 ---
 
@@ -24,9 +28,9 @@ Paste the official level description here.
 
 ```bash
 # Working commands used to solve the level
+ls , cd , cat , file , du , find , grep
 
-ls -la
-cat filename
+find . -group "bandit6" -user "bandit7" -size 33c 2>/dev/null
 ```
 
 ---
@@ -34,18 +38,23 @@ cat filename
 ## Key Learnings
 
 - Main concept learned:
+    See [[PS-Inspire/OverTheWire/Bandit/Levels/Level-05|Level-05]]
     
+	`command 2>/dev/null` is used to send error output (steam 2) into black hole (`/dev/null`)
 - Important flags / tricks:
-    
+```
+-group gname
+	File belongs to group gname (numeric group ID allowed).
+```
 - Common mistake to avoid:
-    
+    Think: Can I make find return exactly one file?
 
 ---
 
 ## Password for Next Level
 
 ```text
-paste-password-here
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
 
 ---
