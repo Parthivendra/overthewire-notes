@@ -1,15 +1,15 @@
-# Bandit Level XX → YY
+# Bandit Level 22 → 23
 
 **Date:** DD-MM-YYYY
 
-**Status:** ✅ Solved / ⏳ Stuck
+**Status:** ⏳ Stuck / ✅ Solved
 
 ---
 
 ## Connection
 
 ```bash
-ssh banditXX@bandit.labs.overthewire.org -p 2220
+ssh bandit22@bandit.labs.overthewire.org -p 2220
 ```
 
 ---
@@ -25,8 +25,6 @@ Paste the official level description here.
 ```bash
 # Working commands used to solve the level
 
-ls -la
-cat filename
 ```
 
 ---
@@ -34,18 +32,18 @@ cat filename
 ## Key Learnings
 
 - Main concept learned:
-    
+	
 - Important flags / tricks:
-    
+	
 - Common mistake to avoid:
-    
+	
 
 ---
 
 ## Password for Next Level
 
 ```text
-paste-password-here
+PastePasswordHere
 ```
 
 ---
@@ -53,18 +51,12 @@ paste-password-here
 ## Notes / Tips
 
 - Extra observations
-    
+	
 - Related commands to explore later
-    
+	
 
 ---
 
 ## Links
 
 - [[Linux-Commands-Cheatsheet]]
-    
-- [[Bandit Level Previous]]
-    
-- [[Bandit Level Next]]
-    
-
