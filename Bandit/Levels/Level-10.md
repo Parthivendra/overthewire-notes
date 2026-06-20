@@ -1,6 +1,6 @@
 # Bandit Level 10 → 11
 
-**Date:** DD-MM-YYYY
+**Date:** 20-06-2026
 
 **Status:** ⏳ Stuck / ✅ Solved
 
@@ -16,7 +16,7 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 ## Level Goal
 
-Paste the official level description here.
+The password for the next level is stored in the file **data.txt**, which contains base64 encoded data
 
 ---
 
@@ -24,6 +24,8 @@ Paste the official level description here.
 
 ```bash
 # Working commands used to solve the level
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
 
 ```
 

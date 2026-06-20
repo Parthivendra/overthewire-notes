@@ -2,7 +2,7 @@
 
 **Date:** 19-06-2026
 
-**Status:** ⏳ Stuck / ✅ Solved
+**Status:** ✅ Solved
 
 ---
 
@@ -65,3 +65,4 @@ dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ## Links
 
 - [[Linux-Commands-Cheatsheet]]
+
