@@ -1,4 +1,4 @@
-# Obsidian
+\# Obsidian
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
@@ -11,6 +11,7 @@
 *.pem
 *.key
 .env
+Bandit/Levels/sshkey.private
 
 # VSCode
 .vscode/
