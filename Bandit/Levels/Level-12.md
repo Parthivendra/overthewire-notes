@@ -142,7 +142,7 @@ xxd - make a hex dump or do the reverse
 ## Password for Next Level
 
 ```text
-FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 ```
 
 ---

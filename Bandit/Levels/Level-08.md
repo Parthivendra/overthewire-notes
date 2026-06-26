@@ -73,7 +73,7 @@ sort data.txt | uniq -u
 ## Password for Next Level
 
 ```text
-4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
 ```
 
 ---

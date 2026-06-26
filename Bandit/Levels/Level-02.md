@@ -47,7 +47,7 @@ cat ./--spaces\ in\ this\ filename--
 ## Password for Next Level
 
 ```text
-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 ```
 
 ---

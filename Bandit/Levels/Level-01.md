@@ -48,7 +48,7 @@ cat ./-
 ## Password for Next Level
 
 ```text
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ```
 
 ---

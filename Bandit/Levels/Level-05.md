@@ -54,7 +54,7 @@ find . -perm 755 # Permission bits 755 - executable
 ## Password for Next Level
 
 ```text
-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 ```
 
 ---

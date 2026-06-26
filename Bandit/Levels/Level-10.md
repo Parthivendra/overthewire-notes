@@ -52,7 +52,7 @@ base64 -d data.txt
 ## Password for Next Level
 
 ```text
-dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 ```
 
 ---

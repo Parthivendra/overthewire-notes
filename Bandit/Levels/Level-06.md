@@ -54,7 +54,7 @@ find . -group "bandit6" -user "bandit7" -size 33c 2>/dev/null
 ## Password for Next Level
 
 ```text
-morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 ```
 
 ---

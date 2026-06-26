@@ -62,7 +62,7 @@ strings data.txt | grep "==" # matches 2 or more "=", simpler, gets the work don
 ## Password for Next Level
 
 ```text
-FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 ```
 
 ---

@@ -48,7 +48,7 @@ grep "millionth" data.txt # same thing but avoids UUOC
 ## Password for Next Level
 
 ```text
-dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 ```
 
 ---

@@ -51,7 +51,7 @@ cat filename
 ## Password for Next Level
 
 ```text
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 ```
 
 ---
