@@ -77,14 +77,34 @@ openssl s_client -connect localhost:30001 | /etc/bandit_pass/bandit15
 	>The client reaches EOF on stdin and terminates the session before you get a chance to interact further with the server.
 	
 	Is there a flag that tells `s_client` **not** to exit just because stdin has reached EOF?
+	No such listings in the man pages.
 	
+	This done must be given by `openssl` not Bandit.
+	Submitting a file through `openssl` warrants it close connection after transfer. What if we don't submit the file, but just open the connection.
+	
+	`openssl s_client -connect localhost:30001`
+	
+	We get `openssl` information (TCP connection, TLS handshake, OpenSSL diagnostic), and a `Read R BLOCK`, this seems to be a input for `localhost:30001` over encrypted TLS connection.
+	> The TLS session is established, and I'm blocked waiting to read or write encrypted application data.
+	
+	Paste the password here and we get, Correct!
+	
+	But why didn't `... < filePath/fileName` work ? 
+	This does two things:
+	1. Feeds the password into `openssl`.
+	2. Immediately reaches **EOF** on stdin because the file has ended.
+	Once stdin reaches EOF, `openssl s_client` closes its side of the communication before you can receive the server's application-layer response. The TLS handshake succeeds, but the interaction is effectively over too quickly.
+	
+	> A program's behavior may depend not only on the data it receives through stdin, but also on when stdin reaches EOF. Feeding input from a file causes EOF immediately after the file ends, whereas interactive input from the terminal keeps stdin open. Sometimes, keeping stdin open briefly (e.g., with `sleep` in a compound command) is necessary to allow a protocol exchange to complete.
+	
+	> We'll learn more about redirections and other xargs commands later.
 	
 - Important flags / tricks:
 	`s_client`
-	`-host, -port, -connect`
+	`-host, -port, -connect, -quite`
 	
 - Common mistake to avoid:
-	
+	`|`, `<`, `>` operators and their working.
 
 ---
 
