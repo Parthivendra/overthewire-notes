@@ -9,9 +9,9 @@
 
 # Secrets
 *.pem
-*.key
+# *.key
 .env
-Bandit/Levels/sshkey.private
+# Bandit/Levels/sshkey.private
 
 # VSCode
 .vscode/

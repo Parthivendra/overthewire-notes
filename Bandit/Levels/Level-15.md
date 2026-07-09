@@ -101,7 +101,7 @@ openssl s_client -connect localhost:30001 | /etc/bandit_pass/bandit15
 	
 - Important flags / tricks:
 	`s_client`
-	`-host, -port, -connect, -quite`
+	`-host, -port, -connect, -quiet`
 	
 - Common mistake to avoid:
 	`|`, `<`, `>` operators and their working.
