@@ -2,7 +2,7 @@
 
 **Date:** 02-07-2026
 
-**Status:** ⏳ Stuck / ✅ Solved
+**Status:** ✅ Solved
 
 ---
 
@@ -39,14 +39,14 @@ openssl s_client -connect localhost:31790
 openssl s_client -connect localhost:31790 -nocommands
 
 mkdir /tmp/jabba/
-touch /tmp/jabba/bandit17-key.txt
-nano /tmp/jabba/bandit17-key.txt # Paste OpenSSL private key given by localhost:31790
-chmod 600 /tmp/jabba/bandit17-key.txt # scp doesn't allow transfter of world-readable key
+touch /tmp/jabba/bandit17.key
+nano /tmp/jabba/bandit17.key # Paste OpenSSL private key given by localhost:31790
+chmod 600 /tmp/jabba/bandit17.key # scp doesn't allow transfter of world-readable key
 exit
 
-@My-Device:$ scp -P 2220 bandit16@bandit.labs.overthewire.org:/tmp/jabba/bandit17-key.txt .
-mv ./bandit17-key.txt ~/.ssh/bandit17,key
-
+@My-Device:$ scp -P 2220 bandit16@bandit.labs.overthewire.org:/tmp/jabba/bandit17.key .
+mv ./bandit17.key ~/.ssh/bandit17.key
+chmod ~/.ssh/bandit17.key
 ```
 
 ---
@@ -136,7 +136,7 @@ mv ./bandit17-key.txt ~/.ssh/bandit17,key
 ## Password for Next Level
 
 ```text
-PastePasswordHere
+pWXMAZoxGC8JmDMfmT5MGEsobMM3vnj2
 ```
 
 ---
