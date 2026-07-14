@@ -1,6 +1,6 @@
 # Bandit Level 20 → 21
 
-**Date:** DD-MM-YYYY
+**Date:** 14-07-2026
 
 **Status:** ⏳ Stuck / ✅ Solved
 
